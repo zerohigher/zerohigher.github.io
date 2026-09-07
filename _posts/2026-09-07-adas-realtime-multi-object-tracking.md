@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "실차 ADAS를 위한 Multi-Object Tracking: 학계 1위 알고리즘이 임베디드 양산에서 탈락하는 이유"
-date: 2026-09-07 12:00:00 +0900
-categories: [ADAS, Autonomous Driving]
+date: 2026-09-07 09:00:00 +0900
+categories: [ADAS, Autonomous-Driving]
 tags: [Object Tracking, ByteTrack, OC-SORT, DeepSORT, Embedded AI, 실차검증]
 description: "Front Camera ADAS(FCWS/AEBS) 환경에서 실시간성, 제한된 SoC 연산량, Ego-motion을 고려해 StrongSORT, BoT-SORT, ByteTrack, OC-SORT를 분석하고 최적의 추적 파이프라인을 도출한 엔지니어링 의사결정 과정"
 ---
