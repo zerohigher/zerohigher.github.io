@@ -4,7 +4,7 @@ title: "[Career Summary] ADAS 전방 센서 HiLS 아키텍처 설계 및 글로�
 date: 2026-09-10 16:00:00 +0900
 categories: [Career, ADAS]
 tags: [HiLS, ADAS, Vector, Time-Sync, Feasibility, System-Architecture, Career-Summary]
-description: "글로벌 Tier-1(Aumovio) 및 인증기관(KATECH) 협업 기반 8.3MP 카메라·레이더 ADAS HiLS 시스템 설계, 상용/자체 솔루션 기술·비용 Feasibility 검토, 벤더 기술 협상 및 프로젝트 리드 이력 정리."
+description: "글로벌 Tier-1 고객사 및 인증기관(KATECH) 협업 기반 8.3MP 카메라·레이더 ADAS HiLS 시스템 설계, 상용/자체 솔루션 기술·비용 Feasibility 검토, 벤더 기술 협상 및 프로젝트 리드 이력 정리."
 ---
 
 <script type="application/ld+json">
@@ -12,7 +12,7 @@ description: "글로벌 Tier-1(Aumovio) 및 인증기관(KATECH) 협업 기반 8
   "@context": "https://schema.org",
   "@type": "TechArticle",
   "headline": "[Career Summary] ADAS 전방 센서 HiLS 아키텍처 설계 및 글로벌 기술 검증 리드",
-  "description": "글로벌 Tier-1(Aumovio) 및 인증기관(KATECH) 협업 기반 8.3MP 카메라·레이더 ADAS HiLS 시스템 설계, 상용/자체 솔루션 기술·비용 Feasibility 검토, 벤더 기술 협상 및 프로젝트 리드 이력 정리.",
+  "description": "글로벌 Tier-1 고객사 및 인증기관(KATECH) 협업 기반 8.3MP 카메라·레이더 ADAS HiLS 시스템 설계, 상용/자체 솔루션 기술·비용 Feasibility 검토, 벤더 기술 협상 및 프로젝트 리드 이력 정리.",
   "author": {
     "@type": "Person",
     "name": "김규환 (Kyle Kim)",
@@ -29,7 +29,7 @@ description: "글로벌 Tier-1(Aumovio) 및 인증기관(KATECH) 협업 기반 8
 
 # ADAS 전방 센서 HiLS 구축 및 엔지니어링 리드 (Career Summary)
 
-> **프로젝트 개요**: 글로벌 Tier-1(Aumovio)의 한국 내 ADAS 실차 기능시험을 **싱가포르 현지 원격 시뮬레이터(HiLS)**로 대체하기 위한 전방 카메라(8.3MP GMSL2) 및 레이더(CAN) 검증 인프라 기획·설계·기술 의사결정 총괄.
+> **프로젝트 개요**: 글로벌 Tier-1 고객사의 한국 내 ADAS 실차 기능시험을 **싱가포르 현지 원격 시뮬레이터(HiLS)**로 대체하기 위한 전방 카메라(8.3MP GMSL2) 및 레이더(CAN) 검증 인프라 기획·설계·기술 의사결정 총괄.
 
 ---
 
@@ -46,7 +46,7 @@ description: "글로벌 Tier-1(Aumovio) 및 인증기관(KATECH) 협업 기반 8
   * 최신 임베디드 로깅 기술(CANape Kernel on Arm64/Thor)을 선제 발굴하여 **기존 대비 80% 이상 비용을 절감하는 1,000만 원 이하 신규 대안** 제시.
   * 글로벌 반도체/SSD 수급난에 따른 3개월 이상의 납기 리스크 및 데일리 단가 변동에 대비한 구매 전략 수립.
 * **글로벌 고객사 및 대외 기관 기술 협의 리드 (Stakeholder Management)**
-  * **Telechips(SoC) – Aumovio(글로벌 Tier-1) – KATECH(한국자동차연구원)** 3자 기술 협의체 주도.
+  * **Telechips(SoC) – 글로벌 Tier-1 고객사 – KATECH(한국자동차연구원)** 3자 기술 협의체 주도.
   * 싱가포르-한국 간 지리적 분리에 따른 해외 반출, 본사 관할 라이선스 분기, 원격 시험 체계 이슈 완결.
 
 ---
@@ -75,7 +75,7 @@ graph TD
     end
 
     INPUT --> ARCH
-    ARCH --> EVAL["Perception 검증 & 센서 융합 평가<br/>(KATECH 인증 & Aumovio 싱가포르 원격 검증)"]
+    ARCH --> EVAL["Perception 검증 & 센서 융합 평가<br/>(KATECH 인증 & 글로벌 고객사 싱가포르 원격 검증)"]
 ```
 
 ---
